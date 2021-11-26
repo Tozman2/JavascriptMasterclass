@@ -1,4 +1,12 @@
-var nicolas = "Nico🍕las"
-let i = 4
+let array = Array(10)
 
-nicolas.charCodeAt(i)
+array.fill(0)
+
+let i = 0
+while(i < array.length)
+  {
+    array[i] = i
+    i++
+  }
+
+console.log(array)
