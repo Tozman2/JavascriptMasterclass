@@ -11,7 +11,3 @@ console.log(surface)
 perimetre = (largeur * 2) + (longueur * 2)
 
 console.log(perimetre)
-
-console.log(typeof longueur)
-
-
